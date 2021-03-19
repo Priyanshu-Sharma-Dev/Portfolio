@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+section{
+    padding: 100px;
+}
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: url(img/tie.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner h2{
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.banner h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.banner h3{
+    font-size: 1.5em;
+    color: #ffffff;
+    font-weight: 500;
+}
+.btn{
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #ffffff;
+    margin-top:20px ;
+    padding: 10px 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+ header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header .logo{
+color: #ffffff;
+font-size: 24px;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: 700;
+letter-spacing: 2px;
+} 
+header ul{
+    position: relative;
+    display: flex;
+    float: right;
+    margin: -37px -45px;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #ffffff;
+text-decoration: none;
+}
+.section-1{
+    padding: 20vmin 0;
+}
+.section-1 .row .col-md-6 .pray img{
+    opacity: 0.8;
+    width: 108%;
+    height: 632px;
+    border-radius: 0.2em;  
+}
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.section-1 .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+
+}
+.section-1 .row .col-md-6 .panel p{
+    font-size: 0.9em;
+    color: rgba(0,0,0,0.5);
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin: -16px 16px;
+    padding: 27px 12px;
+}
+.card-body .card-title{
+    font-size: 35px;
+}
+.text-d h2{
+    font-size: 45px;
+    font-weight: 500;
+
+}
+.priyanshu{
+    background-color: black;
+}
+.text-dark{
+    font-size: 45px;
+    font-weight: 500;
+
+}
+.card:hover{
+    background-color:rgb(231, 125, 231);
+    cursor: pointer;
+}
+.card{
+    box-shadow: 20px 20px rgb(187, 31, 187);
+    border-radius: 2.25rem;
+}
+/* footer */
+footer{
+    background: rgba(0,0,0,0.85);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+
+}
+footer:hover{
+    cursor: pointer;
+}
+footer p>span{
+    color: #ff512f;
+}
+footer input{
+    border: none !important;
+}
+footer input::placeholder{
+    color: white !important;
+}
+footer .input-group .input-group-text{
+    background: var(--bggradient);
+    border: none;
+}
+footer .column i{
+    color: #dd2476;
+}
+footer .column i+i{
+    padding: 0 0.5em;
+
+}
+footer .column:hover{
+    cursor: pointer;
+}
